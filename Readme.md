@@ -16,6 +16,11 @@ Intel Quartus Prime is programmable logic device design software produced by Int
 
 <img src="https://www.intel.com/content/dam/docs/us/en/683855/current/dql1496958792382.png" width=50% height=50%>
 
+### Questa Advanced Simulator
+The Questa Advanced Simulator is the core simulation and debug engine of the Questa Verification Solution; the comprehensive advanced verification platform capable of reducing the risk of validating complex FPGA and SoC designs. The Questa Advanced simulator supports all design languages and constructs, and either automatically or manually partitions the design to run in parallel while maintaining a single database for debug and coverage.
+
+<img src="https://i.pinimg.com/474x/6f/09/b3/6f09b3cc8f50f47bb63754bc0b577c8b.jpg" width=100% height=100%>
+
 ## Construct
 ### FIFO
 FIFO stands for First In First Out, it is a memory block in which the data entered first is the one which is taken out. In the router the main task of FIFO is to store the incoming packets from the source and acts as a buffer between source an destination. It also helps to transfer data from source to destination both working at different data transfer rate.
