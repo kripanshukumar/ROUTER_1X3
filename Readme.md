@@ -9,7 +9,7 @@ To make this project happen a total of 3 softwares are used and are described as
 ### Modelsim by Mentor Graphics
 ModelSim is a multi-language environment by Mentor Graphics, for simulation of hardware description languages such as VHDL, Verilog and SystemC, and includes a built-in C debugger. ModelSim can be used independently, or in conjunction with Intel Quartus Prime, PSIM, Xilinx ISE or Xilinx Vivado. ModelSim eases the process of finding design defects with an intelligently engineered debug environment that efficiently displays design data for analysis and debug of all hardware description languages.
 
-<img src="https://images.sw.cdn.siemens.com/siemens-disw-assets/public/2qmaXNu3a7LQ6jAbcdLhHc/en-US/modelsim-pe-promo-640x480.jpg?auto=format%2Ccompress&w=640&q=60" width=100% height=100%>
+<img src="https://i.redd.it/6741k1f4jyz41.jpg" width=100% height=100%>
 
 ## Construct
 ### FIFO
