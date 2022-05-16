@@ -3,6 +3,14 @@
 ## Introduction
 This repository serves the purpose of presenting the design of a 1X3 8 bit router. It contains the RTL desing, Simulation and Synthesis using softwares like Modelsim, Quartus prime, and Questasim. The language used for RTL code is Verilog.
 
+## Software Used
+To make this project happen a total of 3 softwares are used and are described as follows:
+
+### Modelsim by Mentor Graphics
+ModelSim is a multi-language environment by Mentor Graphics, for simulation of hardware description languages such as VHDL, Verilog and SystemC, and includes a built-in C debugger. ModelSim can be used independently, or in conjunction with Intel Quartus Prime, PSIM, Xilinx ISE or Xilinx Vivado. ModelSim eases the process of finding design defects with an intelligently engineered debug environment that efficiently displays design data for analysis and debug of all hardware description languages.
+
+<img src="https://images.sw.cdn.siemens.com/siemens-disw-assets/public/2qmaXNu3a7LQ6jAbcdLhHc/en-US/modelsim-pe-promo-640x480.jpg?auto=format%2Ccompress&w=640&q=60" width=100% height=100%>
+
 ## Construct
 ### FIFO
 FIFO stands for First In First Out, it is a memory block in which the data entered first is the one which is taken out. In the router the main task of FIFO is to store the incoming packets from the source and acts as a buffer between source an destination. It also helps to transfer data from source to destination both working at different data transfer rate.
