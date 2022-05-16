@@ -11,6 +11,11 @@ ModelSim is a multi-language environment by Mentor Graphics, for simulation of h
 
 <img src="https://i.redd.it/6741k1f4jyz41.jpg" width=33% height=33%>
 
+### Quartus Prims
+Intel Quartus Prime is programmable logic device design software produced by Intel; prior to Intel's acquisition of Altera the tool was called Altera Quartus Prime, earlier Altera Quartus II. The revolutionary Intel® Quartus® Prime Design Software includes everything you need to design for Intel® FPGAs, SoCs, and complex programmable logic device (CPLD) from design entry and synthesis to optimization, verification, and simulation. Dramatically increased capabilities on devices with multi-million logic elements are providing designers with the ideal platform to meet next-generation design opportunities.
+
+<img src="https://www.intel.com/content/dam/docs/us/en/683855/current/dql1496958792382.png" width=50% height=50%>
+
 ## Construct
 ### FIFO
 FIFO stands for First In First Out, it is a memory block in which the data entered first is the one which is taken out. In the router the main task of FIFO is to store the incoming packets from the source and acts as a buffer between source an destination. It also helps to transfer data from source to destination both working at different data transfer rate.
