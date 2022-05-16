@@ -13,3 +13,9 @@ FIFO stands for First In First Out, it is a memory block in which the data enter
 As the name suggests the synchronizer synchronizes the operation between the FIFO, Register, and FSM. It takes control signals from the FSM and the FIFO block and generates the intermediate signal for sub-blocks. The synchronizer contains internal counter which is used to check the timeout condition. Timeout condition occurs when the FIFO contains atleast one byte and the read enable single in not asserted within the next 30 clock cycles.
 
 <img src="images/SYNC_SYNTHESIS/Screenshot%202022-05-16%20174654.png" width=100% height=100%>
+
+### FSM
+
+FSM stands for FINITE STATE MACHINE, and this FSM contains a total of 8 states and is a Moorey machine. The FSM takes care of producing signals like laf_state, lfd_state, ld_state, detect_address, busy, and uses signals from the destination and internal block for the routing of packets.
+
+<img src="images/FSM_SYNTHESIS/Screenshot%202022-05-16%20173917.png" width=100% height=100%>
