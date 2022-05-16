@@ -7,6 +7,6 @@ This repository serves the purpose of presenting the design of a 1X3 8 bit route
 ### FIFO
 FIFO stands for First In First Out, it is a memory block in which the data entered first is the one which is taken out. In the router the main task of FIFO is to store the incoming packets from the source and acts as a buffer between source an destination. It also helps to transfer data from source to destination both working at different data transfer rate.
 
-<img scr="https://raw.githubusercontent.com/kripanshukumar/ROUTER_1X3/main/images/FIFO_SYNTHESIS/Screenshot%202022-05-16%20173621.png?token=GHSAT0AAAAAABR7WQUWOE36G6YCOV4FWB6SYUCRJCQ" width=54% height=54%>
+<img scr="![image](https://user-images.githubusercontent.com/66938295/168652307-2b22af44-1b7f-42b6-9e91-878a2708c6ac.png)" width=54% height=54%>
 
 sadf
