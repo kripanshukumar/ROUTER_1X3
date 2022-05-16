@@ -19,7 +19,7 @@ Intel Quartus Prime is programmable logic device design software produced by Int
 ### Questa Advanced Simulator
 The Questa Advanced Simulator is the core simulation and debug engine of the Questa Verification Solution; the comprehensive advanced verification platform capable of reducing the risk of validating complex FPGA and SoC designs. The Questa Advanced simulator supports all design languages and constructs, and either automatically or manually partitions the design to run in parallel while maintaining a single database for debug and coverage.
 
-<img src="https://i.pinimg.com/474x/6f/09/b3/6f09b3cc8f50f47bb63754bc0b577c8b.jpg" width=100% height=100%>
+<img src="https://i.pinimg.com/474x/6f/09/b3/6f09b3cc8f50f47bb63754bc0b577c8b.jpg" width=50% height=50%>
 
 ## Construct
 ### FIFO
