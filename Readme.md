@@ -19,3 +19,9 @@ As the name suggests the synchronizer synchronizes the operation between the FIF
 FSM stands for FINITE STATE MACHINE, and this FSM contains a total of 8 states and is a Moorey machine. The FSM takes care of producing signals like laf_state, lfd_state, ld_state, detect_address, busy, and uses signals from the destination and internal block for the routing of packets.
 
 <img src="images/FSM_SYNTHESIS/Screenshot%202022-05-16%20173917.png" width=100% height=100%>
+
+### REGISTER
+
+REGISTER block is made up of 4 internal 8 bit register named HEADER_BYTE, FIFO_FULL_STATE_BYTE, INTERNAL_PARITY_BYTE, PACKET_PARITY_BYTE, and combinational block taking input signals from FSM to latch the incoming byte in different register according to the FSM state and FIFO occupancy. This register is very crucial in storing the live byte in the case of fifo full. It also calculates the internal parity along with the incoming data, compares it with the packet parity byte and generates the error signal if the internal parity is not equal to packet parity byte.
+
+<img src="images/REG_SYNTHESIS/Screenshot%202022-05-16%20174353.png" width=100% height=100%>
