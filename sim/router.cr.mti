@@ -1,0 +1,37 @@
+{D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_reg.v} {1 {vlog -work work -vopt -cover sbceft3 -stats=none {D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_reg.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module router_reg
+
+Top level modules:
+	router_reg
+
+} {} {}} {D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_fsm.v} {1 {vlog -work work -vopt -cover sbceft3 -stats=none {D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_fsm.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module router_fsm
+
+Top level modules:
+	router_fsm
+
+} {} {}} {D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_top.v} {1 {vlog -work work -vopt -cover sbceft3 -stats=none {D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_top.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module router_top
+
+Top level modules:
+	router_top
+
+} {} {}} {D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/test_bench/router_top_tb.v} {1 {vlog -work work -vopt -cover sbceft3 -stats=none {D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/test_bench/router_top_tb.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module router_top_tb
+
+Top level modules:
+	router_top_tb
+
+} {} {}} {D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_sync.v} {2 {vlog -work work -vopt -cover sbceft3 -stats=none {D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_sync.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module router_sync
+** Warning: D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_sync.v(48): (vlog-2256) Event expressions should result in a singular type.
+
+Top level modules:
+	router_sync
+
+} {} {}}

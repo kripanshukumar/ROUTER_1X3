@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : -13.828
+TNS   : -89.342
+
+Type  : Slow 1100mV 85C Model Setup 'clock'
+Slack : -7.318
+TNS   : -2728.235
+
+Type  : Slow 1100mV 85C Model Hold 'clock'
+Slack : -1.341
+TNS   : -5.269
+
+Type  : Slow 1100mV 85C Model Hold 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : 2.442
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.724
+TNS   : -614.574
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : -13.855
+TNS   : -89.967
+
+Type  : Slow 1100mV 0C Model Setup 'clock'
+Slack : -7.251
+TNS   : -2632.097
+
+Type  : Slow 1100mV 0C Model Hold 'clock'
+Slack : -1.540
+TNS   : -7.369
+
+Type  : Slow 1100mV 0C Model Hold 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : 2.169
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.724
+TNS   : -613.642
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : -5.855
+TNS   : -34.490
+
+Type  : Fast 1100mV 85C Model Setup 'clock'
+Slack : -3.083
+TNS   : -906.212
+
+Type  : Fast 1100mV 85C Model Hold 'clock'
+Slack : -0.533
+TNS   : -2.090
+
+Type  : Fast 1100mV 85C Model Hold 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : 0.989
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.091
+TNS   : -46.511
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : 0.334
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : -5.246
+TNS   : -31.189
+
+Type  : Fast 1100mV 0C Model Setup 'clock'
+Slack : -2.638
+TNS   : -753.782
+
+Type  : Fast 1100mV 0C Model Hold 'clock'
+Slack : -0.600
+TNS   : -2.352
+
+Type  : Fast 1100mV 0C Model Hold 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : 0.965
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.090
+TNS   : -47.056
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'router_fifo:FIFO_0|read_pointer[0]'
+Slack : 0.376
+TNS   : 0.000
+
+------------------------------------------------------------

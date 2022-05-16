@@ -1,0 +1,43 @@
+|router_fsm
+clock => state[0].CLK
+clock => state[1].CLK
+clock => state[2].CLK
+resetn => reset.IN1
+pkt_valid => always0.IN1
+pkt_valid => state.DATAA
+pkt_valid => state.DATAA
+pkt_valid => state.DATAA
+parity_done => state.OUTPUTSELECT
+parity_done => state.OUTPUTSELECT
+data_in[0] => data_in_fifo_full_mux.IN0
+data_in[0] => data_in_fifo_full_mux.IN0
+data_in[0] => data_in_fifo_full_mux.IN0
+data_in[0] => Equal0.IN1
+data_in[1] => data_in_fifo_full_mux.IN1
+data_in[1] => data_in_fifo_full_mux.IN1
+data_in[1] => data_in_fifo_full_mux.IN1
+data_in[1] => Equal0.IN0
+soft_reset_0 => reset.IN0
+soft_reset_1 => reset.IN1
+soft_reset_2 => reset.IN1
+fifo_full => state.OUTPUTSELECT
+fifo_full => state.OUTPUTSELECT
+fifo_full => state.OUTPUTSELECT
+fifo_full => Mux0.IN7
+fifo_full => Mux2.IN6
+fifo_full => Mux1.IN5
+low_pkt_valid => state.DATAB
+low_pkt_valid => state.DATAB
+fifo_empty_0 => data_in_fifo_full_mux.IN1
+fifo_empty_1 => data_in_fifo_full_mux.IN1
+fifo_empty_2 => data_in_fifo_full_mux.IN1
+busy <= busy.DB_MAX_OUTPUT_PORT_TYPE
+detect_add <= detect_add.DB_MAX_OUTPUT_PORT_TYPE
+ld_state <= ld_state.DB_MAX_OUTPUT_PORT_TYPE
+laf_state <= busy.DB_MAX_OUTPUT_PORT_TYPE
+full_state <= busy.DB_MAX_OUTPUT_PORT_TYPE
+write_enb_reg <= write_enb_reg.DB_MAX_OUTPUT_PORT_TYPE
+rst_int_reg <= busy.DB_MAX_OUTPUT_PORT_TYPE
+lfd_state <= busy.DB_MAX_OUTPUT_PORT_TYPE
+
+

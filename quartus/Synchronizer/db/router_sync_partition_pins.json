@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "vld_out_0",
+					"strict" : false
+				},
+				{
+					"name" : "vld_out_1",
+					"strict" : false
+				},
+				{
+					"name" : "vld_out_2",
+					"strict" : false
+				},
+				{
+					"name" : "write_enb[0]",
+					"strict" : false
+				},
+				{
+					"name" : "write_enb[1]",
+					"strict" : false
+				},
+				{
+					"name" : "write_enb[2]",
+					"strict" : false
+				},
+				{
+					"name" : "fifo_full",
+					"strict" : false
+				},
+				{
+					"name" : "soft_reset_0",
+					"strict" : false
+				},
+				{
+					"name" : "soft_reset_1",
+					"strict" : false
+				},
+				{
+					"name" : "soft_reset_2",
+					"strict" : false
+				},
+				{
+					"name" : "empty_0",
+					"strict" : false
+				},
+				{
+					"name" : "empty_1",
+					"strict" : false
+				},
+				{
+					"name" : "empty_2",
+					"strict" : false
+				},
+				{
+					"name" : "write_enb_reg",
+					"strict" : false
+				},
+				{
+					"name" : "full_0",
+					"strict" : false
+				},
+				{
+					"name" : "full_1",
+					"strict" : false
+				},
+				{
+					"name" : "full_2",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "resetn",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "detect_add",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "read_enb_0",
+					"strict" : false
+				},
+				{
+					"name" : "read_enb_1",
+					"strict" : false
+				},
+				{
+					"name" : "read_enb_2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

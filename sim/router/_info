@@ -1,0 +1,164 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Maven Learning/Practicals/Router_Project/TOP_MODULE/sim
+T_opt
+!s110 1652701748
+V35^;dc;0n?R=lSFZ;J]J:1
+04 13 4 work router_top_tb fast 0
+=1-04d4c453a8b1-62823a33-368-51d8
+o-quiet -auto_acc_if_foreign -work router
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vrouter_fifo
+Z2 !s110 1652701745
+!i10b 1
+!s100 f:=>hmWB>BA4f>[jgz^L61
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[^=7;Tl3@gYLM9U4WJL>g0
+R0
+w1652700865
+8../rtl/router_fifo.v
+F../rtl/router_fifo.v
+!i122 0
+L0 1 82
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1652701745.000000
+Z7 !s107 ../test_bench/router_top_tb.v|../rtl/router_top.v|../rtl/router_sync.v|../rtl/router_reg.v|../rtl/router_fsm.v|../rtl/router_fifo.v|
+Z8 !s90 -reportprogress|300|-work|router|-coveropt|3|+cover|+acc|../rtl/router_fifo.v|../rtl/router_fsm.v|../rtl/router_reg.v|../rtl/router_sync.v|../rtl/router_top.v|../test_bench/router_top_tb.v|
+!i113 0
+Z9 !s102 -coveropt 3 +cover
+Z10 o-work router -coveropt 3 +cover +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vrouter_fsm
+R2
+!i10b 1
+!s100 RX>9BiNMHLFoLJ8DjITf_3
+R3
+ILW5lT<;Nj2@C_Tb6>zmN=1
+R0
+w1652504782
+8../rtl/router_fsm.v
+F../rtl/router_fsm.v
+!i122 0
+L0 1 133
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrouter_reg
+R2
+!i10b 1
+!s100 [o7QcFgO0f0kMnPXSfV?F1
+R3
+IU5m7dOiF0JlOTl`?CGTNK1
+R0
+w1652441456
+8../rtl/router_reg.v
+F../rtl/router_reg.v
+!i122 0
+L0 1 149
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrouter_sync
+R2
+!i10b 1
+!s100 3XUPZB>ih@EAfN_[>LC5V2
+R3
+IHE;UVi5ohl@T;LKOXbEC80
+R0
+w1652696916
+8../rtl/router_sync.v
+F../rtl/router_sync.v
+!i122 0
+L0 1 94
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrouter_top
+R2
+!i10b 1
+!s100 17]f00KiiScilKQ`aJfFW2
+R3
+I5R5g_Z<;CISFdIWCZB:RH2
+R0
+w1651513686
+8../rtl/router_top.v
+F../rtl/router_top.v
+!i122 0
+L0 1 137
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrouter_top_tb
+R2
+!i10b 1
+!s100 BdVNm1hLe3m<PV_VP>Je@0
+R3
+IRnG=9>n86f`ff@XDNR:iA1
+R0
+w1652700960
+8../test_bench/router_top_tb.v
+F../test_bench/router_top_tb.v
+!i122 0
+L0 1 559
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1

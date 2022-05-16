@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "busy",
+					"strict" : false
+				},
+				{
+					"name" : "detect_add",
+					"strict" : false
+				},
+				{
+					"name" : "ld_state",
+					"strict" : false
+				},
+				{
+					"name" : "laf_state",
+					"strict" : false
+				},
+				{
+					"name" : "full_state",
+					"strict" : false
+				},
+				{
+					"name" : "write_enb_reg",
+					"strict" : false
+				},
+				{
+					"name" : "rst_int_reg",
+					"strict" : false
+				},
+				{
+					"name" : "lfd_state",
+					"strict" : false
+				},
+				{
+					"name" : "pkt_valid",
+					"strict" : false
+				},
+				{
+					"name" : "fifo_full",
+					"strict" : false
+				},
+				{
+					"name" : "parity_done",
+					"strict" : false
+				},
+				{
+					"name" : "low_pkt_valid",
+					"strict" : false
+				},
+				{
+					"name" : "resetn",
+					"strict" : false
+				},
+				{
+					"name" : "soft_reset_0",
+					"strict" : false
+				},
+				{
+					"name" : "soft_reset_1",
+					"strict" : false
+				},
+				{
+					"name" : "soft_reset_2",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "fifo_empty_1",
+					"strict" : false
+				},
+				{
+					"name" : "fifo_empty_0",
+					"strict" : false
+				},
+				{
+					"name" : "fifo_empty_2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

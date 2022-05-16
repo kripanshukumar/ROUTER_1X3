@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at router_sync.v(70): always construct contains both blocking and non-blocking assignments File: D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_sync.v Line: 70
+Warning (10273): Verilog HDL warning at router_fifo.v(43): extended using "x" or "z" File: D:/Maven Learning/Practicals/Router_Project/TOP_MODULE/rtl/router_fifo.v Line: 43
