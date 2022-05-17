@@ -2,7 +2,16 @@
 
 ## TABLE OF CONTENTS
 * [INTRODUCTION](https://github.com/kripanshukumar/ROUTER_1X3#introduction)
-    
+* [Software Used](https://github.com/kripanshukumar/ROUTER_1X3#software-used)
+* [Modelsim](https://github.com/kripanshukumar/ROUTER_1X3#modelsim-by-mentor-graphics)
+* [Quartus Prime](https://github.com/kripanshukumar/ROUTER_1X3#quartus-prime)
+* [Questa Advanced Simulator](https://github.com/kripanshukumar/ROUTER_1X3#questa-advanced-simulator)
+* [Construct](https://github.com/kripanshukumar/ROUTER_1X3#construct)
+* [FIFO](https://github.com/kripanshukumar/ROUTER_1X3#fifo)
+* [SYNCHRONIZER](https://github.com/kripanshukumar/ROUTER_1X3#synchronizer)
+* [FSM](https://github.com/kripanshukumar/ROUTER_1X3#fsm)
+* [REGISTER](https://github.com/kripanshukumar/ROUTER_1X3#register)
+* [Code Coverage Report](https://github.com/kripanshukumar/ROUTER_1X3#code-coverage-report)
 
 ## Introduction
 This repository serves the purpose of presenting the design of a 1X3 8 bit router. It contains the RTL desing, Simulation and Synthesis using softwares like Modelsim, Quartus prime, and Questasim. The language used for RTL code is Verilog.
@@ -15,7 +24,7 @@ ModelSim is a multi-language environment by Mentor Graphics, for simulation of h
 
 <img src="https://i.redd.it/6741k1f4jyz41.jpg" width=33% height=33%>
 
-### Quartus Prims
+### Quartus Prime
 Intel Quartus Prime is programmable logic device design software produced by Intel; prior to Intel's acquisition of Altera the tool was called Altera Quartus Prime, earlier Altera Quartus II. The revolutionary Intel® Quartus® Prime Design Software includes everything you need to design for Intel® FPGAs, SoCs, and complex programmable logic device (CPLD) from design entry and synthesis to optimization, verification, and simulation. Dramatically increased capabilities on devices with multi-million logic elements are providing designers with the ideal platform to meet next-generation design opportunities.
 
 <img src="https://www.intel.com/content/dam/docs/us/en/683855/current/dql1496958792382.png" width=50% height=50%>
@@ -49,7 +58,7 @@ REGISTER block is made up of 4 internal 8 bit register named HEADER_BYTE, FIFO_F
 <img src="images/REG_SYNTHESIS/Screenshot%202022-05-16%20174353.png" width=100% height=100%>
 
 
-## CODE COVERAGE REPORT
+## Code Coverage Report
 Code coverage measures how much of the “design Code” is exercised. This includes the execution of design blocks, Number of Lines, Conditions, FSM, Toggle and Path. The simulator tool will automatically extract the code coverage from the design code.
 
 <img src="images/Code%20Coverage/Code%20Coverage%20Questasim.png" width=100% height=100%>
