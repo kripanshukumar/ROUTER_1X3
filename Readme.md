@@ -43,3 +43,9 @@ FSM stands for FINITE STATE MACHINE, and this FSM contains a total of 8 states a
 REGISTER block is made up of 4 internal 8 bit register named HEADER_BYTE, FIFO_FULL_STATE_BYTE, INTERNAL_PARITY_BYTE, PACKET_PARITY_BYTE, and combinational block taking input signals from FSM to latch the incoming byte in different register according to the FSM state and FIFO occupancy. This register is very crucial in storing the live byte in the case of fifo full. It also calculates the internal parity along with the incoming data, compares it with the packet parity byte and generates the error signal if the internal parity is not equal to packet parity byte.
 
 <img src="images/REG_SYNTHESIS/Screenshot%202022-05-16%20174353.png" width=100% height=100%>
+
+
+## CODE COVERAGE REPORT
+Code coverage measures how much of the “design Code” is exercised. This includes the execution of design blocks, Number of Lines, Conditions, FSM, Toggle and Path. The simulator tool will automatically extract the code coverage from the design code.
+
+<img src="images/Code%20Coverage/Code%20Coverage%20Questasim.png" width=100% height=100%>
