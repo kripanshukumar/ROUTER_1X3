@@ -49,3 +49,5 @@ REGISTER block is made up of 4 internal 8 bit register named HEADER_BYTE, FIFO_F
 Code coverage measures how much of the “design Code” is exercised. This includes the execution of design blocks, Number of Lines, Conditions, FSM, Toggle and Path. The simulator tool will automatically extract the code coverage from the design code.
 
 <img src="images/Code%20Coverage/Code%20Coverage%20Questasim.png" width=100% height=100%>
+
+<img src="images/Code%20Coverage/Code%20Coverage%20Questasim%202.png" width=100% height=100%>
