@@ -1,4 +1,8 @@
-# ROUTER 1X3 DESIGN
+# ROUTER 1X3 DESIGN USING MODELSIM, QUARTUS PRIME, AND QUESTASIM
+
+## TABLE OF CONTENTS
+* [INTRODUCTION](https://github.com/kripanshukumar/ROUTER_1X3#introduction)
+    
 
 ## Introduction
 This repository serves the purpose of presenting the design of a 1X3 8 bit router. It contains the RTL desing, Simulation and Synthesis using softwares like Modelsim, Quartus prime, and Questasim. The language used for RTL code is Verilog.
